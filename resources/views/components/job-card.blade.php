@@ -4,7 +4,7 @@
     <div class="self-start text-sm">{{$job->employer->name}}</div>
     <div class="py-8 ">
       <h3 class="group-hover:text-blue-600 text-xl font-bold">
-        <a href="{{$job->url}}" >
+        <a href="{{$job->url}}" target="blank" >
           {{$job->title}}
         </a>
         
